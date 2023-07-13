@@ -6,3 +6,4 @@ def progress_bar(label, total, progress):
     bar = '#' * filled_length + '-' * (bar_length - filled_length)
     print(f'{label} [{bar}] {progress}/{total}', end='\r')
 
+# Usage:
