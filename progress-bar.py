@@ -8,3 +8,4 @@ def progress_bar(label, total, progress):
 
 # Usage:
 total_items = 100
+for i in range(total_items + 1):
