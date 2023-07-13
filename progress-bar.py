@@ -7,3 +7,4 @@ def progress_bar(label, total, progress):
     print(f'{label} [{bar}] {progress}/{total}', end='\r')
 
 # Usage:
+total_items = 100
