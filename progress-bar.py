@@ -11,3 +11,4 @@ total_items = 100
 for i in range(total_items + 1):
     progress_bar('Progress:', total_items, i)
     time.sleep(0.1)
+
